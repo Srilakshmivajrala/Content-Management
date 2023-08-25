@@ -1,59 +1,38 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background-color:skyblue;
-    font-family: 'Arabic';
+body {
+  font-family: Italic, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.login{
-        width: 382px;
-        overflow: hidden;
-        margin: auto;
-        margin: 20 0 0 450px;
-        padding: 80px;
-        background:palegreen;
-        border-radius: 15px ;
 
+header {
+  background-color: purple;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
-h2{
-    text-align: center;
-    color: black;
-    padding: 20px;
-}
-label{
-    color: black;
-    font-size: 17px;
-}
-#Uname{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius:3px;
-    padding-left:8px;
-}
-#Pass{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius:3px;
-    padding-left:8px;
 
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
 }
-#log{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius:17px;
-    padding-left:7px;
-    color: black;
 
+#post-form {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
 
+#posts-list {
+  border: 1px solid #ddd;
+  padding: 1rem;
 }
-span{
-    color: black;
-    font-size:17px;
+
+.post {
+  margin-bottom: 1rem;
 }
-a{
-    float: right;
-    background-color:black;
+
+.post img {
+  max-width: 100%;
+  height: auto;
 }
